@@ -17,7 +17,7 @@ public class GreetingController {
 
 	@PostMapping("/greeting")
 	public String greetingSubmit(@ModelAttribute Greeting greeting) {
-		return "result";
+		return "greeting";
 	}
 
 }
